@@ -1,0 +1,51 @@
+* {
+    color: blue;
+}
+/* esta es la forma de definir las propiedades para todo los elementos de mi documento *{ } 
+*/
+
+p, span {  
+    color: red;
+    width: 300px;
+}
+/* Con la coma es la forma de compartir propiedades en CSS entre los mismos elementos pero esto
+no es la mejor forma cuando tengo muchas hojas en la misma pagina */
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+        margin: 30px 25px 20px 15px;
+        padding: 30px 25px 20px 15px;
+      font-weight: bold;
+    color: grey;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#mi_parrafo {
+    color: blueviolet;
+    font-size: 23px;
+    border: 10px solid lightblue;
+}
+/* con el numeral # puedo identificar con su nombre de ID y darle las propiedas que quiera
+a ese elemento*/
+
+.estaesmiclase {
+    font-weight: bold;
+    color: greenyellow;
+}
+/* cuando tengamos que reutilizar y aplicarle los mismos estilos a muchos elementos se utilizan las
+clases, las cuales se inician con un punto . y el nombre que le pongamos */
+
+/* section h1{
+    font-size: 100px;
+    color: aqua;
+} 
+para aplicar cierta regla a todos los elementos en CSS que yo elija como en este ejemplo
+hay diferentes selectores
+*/

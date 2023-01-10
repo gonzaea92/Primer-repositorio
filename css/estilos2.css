@@ -1,0 +1,33 @@
+p {  
+    color: red;
+    width: 300px;
+}
+
+/* 
+Esto es un comentario dentro de un documento de CSS
+ */
+h1 {
+    border: 1px solid black;
+    /* padding: 5px; */
+    /* margin: 30px; este es un margen general tambien se puede hacer individualmente por cada lado */
+    /* las propiedades se leé en sentido del reloj: es decir arriba, derecha, abajo y izquierda 
+    Tambien se puede escribir de corrido padding: 30px 25px 20px 15px;
+    margin: 30px 25px 20px 15px; */
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: grey;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
